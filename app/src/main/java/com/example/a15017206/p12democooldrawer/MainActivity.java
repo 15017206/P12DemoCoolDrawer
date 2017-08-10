@@ -44,9 +44,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the list's click listener
         drawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> arg0, View arg1, int
-                    position, long arg3) {
-
+            public void onItemClick(AdapterView<?> arg0, View arg1, int position, long arg3) {
                 Fragment fragment = null;
                 if (position == 0)
                     fragment = new BioFragment();
