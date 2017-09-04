@@ -37,8 +37,7 @@ public class MainActivity extends AppCompatActivity {
         drawerItems = new String[]{"Bio", "Vaccination", "Anniversary"};
         ab = getSupportActionBar();
 
-        aa = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_activated_1, drawerItems);
+        aa = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_activated_1, drawerItems);
         drawerList.setAdapter(aa);
 
         // Set the list's click listener
